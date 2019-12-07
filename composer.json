@@ -1,0 +1,20 @@
+{
+    "name": "Welder/api_ibge",
+    "description": "Consumindo api do IBGE",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Welder Mileu",
+            "email": "welderfelix21@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.9"
+    },
+    "autoload": {
+        "psr-4": {
+            "Search\\": "src/"
+        }
+    }
+}
