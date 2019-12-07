@@ -1,5 +1,5 @@
 {
-    "name": "Welder/api_ibge",
+    "name": "welder/api_ibge",
     "description": "Consumindo api do IBGE",
     "type": "library",
     "license": "MIT",
