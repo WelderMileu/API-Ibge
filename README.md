@@ -1,3 +1,3 @@
 ## API DO IBGE 
 
-- Pacote em de Desenvolvimento
+- Pacote em Desenvolvimento
