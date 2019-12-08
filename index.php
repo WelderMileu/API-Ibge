@@ -2,7 +2,7 @@
 
 require_once "vendor/autoload.php";
 
-use Search\Ibge;
+use Classes\Search\Ibge; # Não esta reconhecendo o nosso namespace
 
 $c = new Ibge();
 $result = $c->getUf("35");

@@ -13,11 +13,11 @@
         "php": ">=7.1.9"
     },
     "autoload": {
-        "psr-0" : {
+        "psr-0": {
             "Ibge" : "src/"
         },
         "psr-4": {
-            "Search\\": "src/"
+            "Classes\\Search\\": "src/"
         }
     }
 }

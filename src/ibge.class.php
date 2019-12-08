@@ -1,8 +1,8 @@
 <?php
 
-namespace Search; # Verificar se esse nome esta correto
+namespace Classes\Search; # Verificar se esse nome esta correto
 
-class Ibge{
+class Ibge {
     private $url = 'https://servicodados.ibge.gov.br/api/v1/localidades/estados/';
 
     public function getUf($estado): array{
