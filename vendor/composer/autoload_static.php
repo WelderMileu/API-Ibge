@@ -20,11 +20,22 @@ class ComposerStaticInit5ebab59343cdda50be39e9b9c06bbb64
         ),
     );
 
+    public static $prefixesPsr0 = array (
+        'I' => 
+        array (
+            'Ibge' => 
+            array (
+                0 => __DIR__ . '/../..' . '/src',
+            ),
+        ),
+    );
+
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
             $loader->prefixLengthsPsr4 = ComposerStaticInit5ebab59343cdda50be39e9b9c06bbb64::$prefixLengthsPsr4;
             $loader->prefixDirsPsr4 = ComposerStaticInit5ebab59343cdda50be39e9b9c06bbb64::$prefixDirsPsr4;
+            $loader->prefixesPsr0 = ComposerStaticInit5ebab59343cdda50be39e9b9c06bbb64::$prefixesPsr0;
 
         }, null, ClassLoader::class);
     }

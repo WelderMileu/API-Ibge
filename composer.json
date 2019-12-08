@@ -1,5 +1,5 @@
 {
-    "name": "welder/api_ibge",
+    "name": "weldermileu/api_ibge",
     "description": "Consumindo api do IBGE",
     "type": "library",
     "license": "MIT",
@@ -13,6 +13,9 @@
         "php": ">=7.1.9"
     },
     "autoload": {
+        "psr-0" : {
+            "Ibge" : "src/"
+        },
         "psr-4": {
             "Search\\": "src/"
         }
